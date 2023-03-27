@@ -17,7 +17,18 @@
             newRow.appendChild(newTitle);
 
             // CREATE NEW AUTHOR
-            
+            const newAuthor = document.createElement("td");
+            newAuthor.innerHTML = author.value;
+            newRow.appendChild(newAuthor);
+
+            // CREATE NEW DATE
+            const newDate = document.createElement("td");
+            newDate.innerHTML = year.value;
+            newRow.appendChild(newDate);
+
+            booklist.appendChild(newRow);
+
+            FormData.reset();
         }
     })
  })
