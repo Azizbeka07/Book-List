@@ -28,7 +28,7 @@
 
             booklist.appendChild(newRow);
 
-            FormData.reset();
+            form.reset();
         }
     })
  })
